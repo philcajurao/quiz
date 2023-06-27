@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+body, html {
+    background-color: #f9fbfd;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+
+
+
+
+header {
+    text-align: center;
+}
+.title {
+    margin-top: 20px;
+}
+
+
+
+
+
+.quiz-container {
+    display: block;
+    margin: 20px auto;
+    padding: 20px;
+    width: 500px;
+
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    /* box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2); */
+
+    background-color: #fefefe;
+}
+.question {
+    margin-top: 20px;
+}
+.subject-title {
+    text-align: center;
+}
+.answers-container {
+    margin-top: 10px;
+}
+li {
+    list-style-type: none;
+    font-size: .8em;
+
+    border: 1px solid #cacaca;
+    border-radius: 7px;
+
+    margin: 5px auto;
+    padding: 7px;
+}
+li:hover {
+    background-color: #0000001a;
+    cursor: pointer;
+}
+
+
+
+
+
+.btn-container {
+    text-align: right;
+    padding-top: 10px;
+}
+.rst-btn {
+    padding: 7px 12px;
+
+    border-radius: 7px;
+    border: none;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+
+    background-color: #162276;
+    color: #fefefe;
+}
+
+
+
+
+
+footer {
+    text-align: center;
+    font-size: smaller;
+    color: #aaa;
+}
